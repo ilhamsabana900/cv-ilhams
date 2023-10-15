@@ -5,133 +5,210 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous">
   </head>
   <body>
+    <!-- 
+    <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top" style="background-color: #008bfd;">
+      <div class="container">
+             <a class="navbar-brand" href="#">PUTRI ANANDA RHAMADANI</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                           <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                           <a class="nav-link" href="#about">About</a>
+                           <a class="nav-link" href="#achievement">Achievements</a>
+                           <a class="nav-link" href="#projects">Projects</a>
+                           <a class="nav-link" href="#contact">Contact Me</a>
+                    </div>
+             </div>
+      </div>
+</nav> -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top"
+      style="background-color: white;">
+      <div class="container ">
+        <div class="d-flex justify-content-center py-3">
 
-    <div class="container">
-        <header class="d-flex justify-content-center py-3">
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#home" class="nav-link active"
+                aria-current="page">Home</a></li>
             <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
             <li class="nav-item"><a href="#portofolio" class="nav-link">Portofolio</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
           </ul>
-        </header>
-      </div>
 
-      <div class="container col-xxl-6 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-4 col-lg-4">
-            <img src="/static/foto.png" class="d-block mx-lg-auto img-fluid" width="250" height="150" loading="lazy">
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">M. Ilham Sya'bana</h1>
-            <p class="lead"><p>A student who is studying web development and dreams of becoming a backend engineer</p>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container col-xxl-6 px-4 py-5" id="home">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-4 col-lg-4">
+          <img src="/static/foto.png" class="d-block mx-lg-auto img-fluid"
+            width="250" height="150" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">M. Ilham
+            Sya'bana</h1>
+          <p class="lead"><p>A student who is studying web development and
+              dreams of becoming a backend engineer</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Lihat Tentang Saya</button>
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Lihat
+                Tentang Saya</button>
             </div>
           </div>
         </div>
       </div>
-      
+
       <!-- About -->
-    
+
       <div class="container col-xxl-6 px-4 py-5" id="about">
         <h1 class="text-center">About</h1>
         <div class="row flex-lg-row align-items-center g-5 py-5">
           <div class="col-10 col-sm-4 col-lg-4">
-            <img src="/static/foto2.png" class="d-block mx-lg-auto img-fluid" width="600" height="300" loading="lazy">
+            <img src="/static/foto2.png" class="d-block mx-lg-auto img-fluid"
+              width="600" height="300" loading="lazy">
           </div>
           <div class="col-lg-6">
-            <p class="lead"><p>I'm a student at Yudharta Pasuruan University majoring in Informatics, semester 5, here I'm deepening Laravel framework with Rest API using Postman</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <p class="lead"><p>I'm a student at Yudharta Pasuruan University
+                majoring in Informatics, semester 5, here I'm deepening Laravel
+                framework with Rest API using Postman</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Portofolio -->
+        <!-- Portofolio -->
 
-      <div class="album py-5 bg-body-tertiary" id="portofolio">
-        <div class="container">
-          <h1 class="text-center high:29px md-7">Portofolio</h1>
-    
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="/static/foto3.jpeg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Website toko online juaal beli sayuran</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary "><link rel="stylesheet" href="">View</button>
+        <div class="album py-5 bg-body-tertiary" id="portofolio">
+          <div class="container">
+            <h1 class="text-center high:29px md-7">Portofolio</h1>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="/static/foto3.jpeg" alt>
+                  <div class="card-body">
+                    <p class="card-text">Website toko online juaal beli sayuran</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button"
+                          class="btn btn-sm btn-outline-secondary "><link
+                            rel="stylesheet" href>View</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="/static/foto3.jpeg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Website toko online juaal beli sayuran</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary ">View</button>
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="/static/foto3.jpeg" alt>
+                  <div class="card-body">
+                    <p class="card-text">Website toko online juaal beli sayuran</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button"
+                          class="btn btn-sm btn-outline-secondary ">View</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="/static/foto3.jpeg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Website toko online juaal beli sayuran</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary ">View</button>
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="/static/foto3.jpeg" alt>
+                  <div class="card-body">
+                    <p class="card-text">Website toko online juaal beli sayuran</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button"
+                          class="btn btn-sm btn-outline-secondary ">View</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+
             </div>
-        
           </div>
         </div>
-      </div>
 
-      <!-- contact -->
-      <div class="container col-xxl-6 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-md-7">
-        <h2 class="text-body-emphasis">Contact</h2>
-        <ul class="list-unstyled ps-0">
-          <li><a href=""><i class="fas fa-phone"></i> 085704340225</a></li>
-          <li><a href=""><i class="fab fa-instagram"></i> ilham8082</a></li>
-          <li><a href=""><i class="fa fa-github"></i>ilhamsabana100</a></li>
-        </ul>
-      </div>
-      </div>
-      </div>
+        <!-- contact -->
+        <div class="container" id="contact">
+          <div class="row">
+            <div class="m-2">
+              <h1 class="text-center">contact me</h1>
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="name"
+                    aria-describedby="name">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email"
+                    aria-describedby="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="pesan" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-5">Kirim</button>
+              </form>
+            </div>
+          </div>
+        </div>
 
-      <div class="card text-center">
-        <div class="card-header">
-          Tentang Kami
-        </div>
-        <div class="card-body">
-          <h5 class="card-title"><i class="fas fa-phone"></i> <i class="fab fa-instagram"></i> <i class="fab fa-github"></i></h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        </div>
-        <div class="card-footer text-body-secondary">
-          2023
-        </div>
-      </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
-</html>
+        <div class="card text-center">
+          <div class="card-header">
+            Tentang Kami
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-phone"></i> <i
+                class="fab fa-instagram"></i> <i class="fab fa-github"></i>
+            </h5>
+
+            <div class="container text-center">
+              <div class="row align-items-end">
+                <div class="col">
+                  <div>
+                    <p><a href="#"
+                        class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ">081-574-774-027</a></p>
+                  </div>
+                </div>
+                <div class="col">
+                  <p><a href="#"
+                      class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">@haaaaams_</a></p>
+                </div>
+                <div class="col">
+                  <p><a href="#"
+                      class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">ilham
+                      sabana</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer text-body-secondary">
+              2023
+            </div>
+          </div>
+         
+
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+        </body>
+      </html>
